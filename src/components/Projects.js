@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/pos.PNG";
+import projImg1 from "../assets/img/popy.PNG";
 import projImg2 from "../assets/img/gmf.PNG";
 import projImg3 from "../assets/img/land.PNG";
 import projImg4 from "../assets/img/medical.PNG";
@@ -70,7 +70,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="fourth">GMF Savings System Demo</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="fifth">Medical Demo</Nav.Link>
+                      <Nav.Link eventKey="fifth">Preclinic Demo</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="sixth">Vivo Demo</Nav.Link>
@@ -92,10 +92,9 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                    <p>Tenure system is a customized built user friendly that helps to keep track of sales and purchases, it covers
-                        small businesses.
+                    <p>It is a web based system designed to streamline and automate various tasks related to managing properties.
                         </p>
-                        <p>Demo link: https://possprime.nebbicatholicdiocese.org</p>
+                        <p>Demo link: https://property.nebbicatholicdiocese.org</p>
                         <p>Email: lee@gmail.com</p>
                         <p>Password: 1234</p>
                     </Tab.Pane>
@@ -104,14 +103,21 @@ export const Projects = () => {
                         small businesses.
                         </p>
                         <p>Demo link: https://possprime.nebbicatholicdiocese.org</p>
-                        <p>Email: lee@gmail.com</p>
+                        <p>Email: meg@gmail.com</p>
                         <p>Password: 1234</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="fourth">
                       <p>GMF is a savings system that empowers individuals to cultivate a disciplined approach to saving money, build financial resilience, and work towards a more secure and prosperous future.
                         </p>
-                        <p>Demo link: https://muwoya.nebbicatholicdiocese.org/</p>
-                        <p>Email: test@gmail.com</p>
+                        <p>Demo link: https://gmf.nebbicatholicdiocese.org/</p>
+                        <p>Email: dan@gmail.com</p>
+                        <p>Password: 1234</p>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="fifth">
+                      <p>Preclinic is a customized system that responds to evolving medical needs and societal changes.
+                        </p>
+                        <p>Demo link: https://medical.nebbicatholicdiocese.org/</p>
+                        <p>Email: dumba@gmail.com</p>
                         <p>Password: 1234</p>
                     </Tab.Pane>
                   </Tab.Content>
