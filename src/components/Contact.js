@@ -16,7 +16,7 @@ export const Contact = () => {
           <Col size={12} md={6}>
           <h2>Websites Developed</h2>
 
-          <p><a style={myStyle} href="https://nebbicatholicdiocese.org/" target="_blank">Nebbi Catholic Diocese</a></p>
+          {/* <p><a style={myStyle} href="https://nebbicatholicdiocese.org/" target="_blank">Nebbi Catholic Diocese</a></p> */}
 
           <p><a style={myStyle} href="https://aobilab.com" target="_blank">AOBiLAB</a></p>
 
