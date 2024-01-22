@@ -25,7 +25,7 @@ export const Contact = () => {
           <p><a style={myStyle} href="https://nugsoft.com" target="_blank">Nugsoft Technologies</a></p>
 
         
-          <p><a style={myStyle} href="https://comtechug.com" target="_blank">Comtech Ventures</a></p>
+          <p><a style={myStyle} href="https://codecompassfoundation.org" target="_blank">Code Compass Foundation</a></p>
 
           <p><a style={myStyle} href="https://urbanhuesspa.com" target="_blank">Urban Huesspa</a></p>
 
