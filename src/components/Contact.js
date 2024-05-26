@@ -51,7 +51,10 @@ export const Contact = () => {
                 <h2>Get In Touch</h2>
               <p>Phone: +256-757326941</p><br></br>
         
-              <p>Email: alvinbato112@gmail.com</p>
+              <p>Email: alvinbato112@gmail.com</p><br></br>
+
+              <p>LinkedIn: <a style={myStyle} href="https://linkedin.com/in/alvin-bato">BatoAlvin</a></p><br></br>
+              <p>Github Handle: <a style={myStyle} href="https://github.com/BatoAlvin/">BatoAlvin</a></p>
               </div>}
             </TrackVisibility>
           </Col>

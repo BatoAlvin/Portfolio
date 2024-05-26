@@ -10,6 +10,11 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
+  const myStyle = {
+    color: 'white',
+    textDecoration: 'none'
+  };
+
   const projects = [
     {
       title: "Poss Prime System",
@@ -94,31 +99,35 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                     <p>It is a web based system designed to streamline and automate various tasks related to managing properties.
                         </p>
-                        <p>Demo link: https://property.nebbicatholicdiocese.org</p>
+                      <a style={myStyle} href="https://property.nebbicatholicdiocese.org" target="_blank" ><p>Demo link: Property </p> </a>  
                         <p>Email: lee@gmail.com</p>
                         <p>Password: 1234</p>
+                     <a style={myStyle} href="https://github.com/BatoAlvin/Property-management" target="_blank">  <p>Source Code: Github</p> </a>  
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>POS prime system is a customized built user friendly that helps to keep track of sales and purchases, it covers
                         small businesses.
                         </p>
-                        <p>Demo link: https://possprime.nebbicatholicdiocese.org/</p>
+                      <a style={myStyle} href="https://possprime.nebbicatholicdiocese.org/" target="_blank"> <p>Demo link: Possprime </p> </a>  
                         <p>Email: meg@gmail.com</p>
                         <p>Password: 1234</p>
+                      <a  style={myStyle} href="https://github.com/BatoAlvin/Posprime" target="_blank"> <p>Source Code: Github</p> </a>  
                     </Tab.Pane>
                     <Tab.Pane eventKey="fourth">
                       <p>GMF is a savings system that empowers individuals to cultivate a disciplined approach to saving money, build financial resilience, and work towards a more secure and prosperous future.
                         </p>
-                        <p>Demo link: https://gmf.nebbicatholicdiocese.org/</p>
+                     <a style={myStyle} href="https://gmf.nebbicatholicdiocese.org/" target="_blank"> <p>Demo link: Gmf </p> </a>   
                         <p>Email: dan@gmail.com</p>
                         <p>Password: 1234</p>
+                       <a style={myStyle} href="https://github.com/BatoAlvin/Muwoya/" target="_blank"> <p>Source Code: Github</p> </a> 
                     </Tab.Pane>
                     <Tab.Pane eventKey="fifth">
                       <p>Preclinic is a customized system that responds to evolving medical needs and societal changes.
                         </p>
-                        <p>Demo link: https://medical.aobilab.com</p>
+                       <a style={myStyle} href="https://medical.aobilab.com" target="_blank"> <p>Demo link: Medical </p> </a> 
                         <p>Email: dumba@gmail.com</p>
                         <p>Password: 1234</p>
+                      <a style={myStyle} href="https://github.com/BatoAlvin/Preclinic" target="_blank"> <p>Source Code: Github</p> </a>  
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

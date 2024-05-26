@@ -57,7 +57,9 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Alvin`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Alvin is creative and inventive thinker, who likes challenges and who is not afraid to work outside his comfort zone.  He is a motivated social and business team player, who consistently aims to push project expectations and exceed goals. He possesses superb social management, monitoring, social impact assessment and communication skills, and is someone who can build rapport easily open up customers. He values community engagement, honesty, positivity, integrity, hard and smart work.</p>
+                  <p>
+                  Alvin is a creative and inventive thinker who loves challenges and isn't afraid to step outside his comfort zone. He's a motivated team player in both social and business settings, always striving to exceed goals. With excellent social management, communication skills, and the ability to build rapport easily, he values community engagement, honesty, positivity, integrity, and hard work.
+                    </p>
 
               </div>}
             </TrackVisibility>
